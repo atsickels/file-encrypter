@@ -1,3 +1,4 @@
+// Uncomment this to run a randomized encryption
 /*
 #include "encrypt-module.h"
 #include <stdio.h>
@@ -97,6 +98,9 @@ int get_output_total_count() {
 
 
 */
+
+// Comment below this line and uncomment above to allow randomized encryption. Otherwise the encrypter will reset every 200 characters
+
 ///*
  #include "encrypt-module.h"
  #include <stdio.h>
